@@ -19,3 +19,30 @@ div h1 {
 	background-repeat: no-repeat;
     background-position: center;
 }
+
+header {
+    display:inline-block
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 42px;
+}
+
+header nav {
+    /* display: inline-block; */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 21px;
+}
+
+header nav ul {
+    list-style-type: none;
+    /* display: inline-block; */
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
