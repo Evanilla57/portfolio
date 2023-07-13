@@ -1,8 +1,12 @@
 body {
 	background-color: #e5e7eb;
 	font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
+div h1 {
+    text-align: center;
+}
 #avatar {
     height: 400px;
     width: 100%;
