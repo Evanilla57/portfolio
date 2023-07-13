@@ -46,3 +46,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+#contact-info p {
+    font-size: 13px;
+}
