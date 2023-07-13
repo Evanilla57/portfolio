@@ -1,1 +1,1 @@
-console.log("JavaScript under construction");
+console.log("JavaScript under construction &#128519");
