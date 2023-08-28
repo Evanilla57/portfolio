@@ -21,7 +21,6 @@ h1 {
 }
 
 nav {
-  /* text-align: left; */
   padding-top: 15px;
   margin-right: 20px;
   padding-bottom: 20px;
@@ -69,10 +68,6 @@ h2 {
   margin: auto;
 }
 
-/* #contact-info p {
-    font-size: 13px;
-} */
-
 #my-apps {
     display: flex;
     flex-wrap: wrap;
@@ -119,8 +114,8 @@ h2 {
   }
   
   .wip img {
-    width: 250px;
-    height:250px;
+    width: 200px;
+    height:200px;
     margin: auto;
   }
 
@@ -132,16 +127,3 @@ h2 {
     font-size: 10px;
     text-align: center;
 }
-
-@media screen and (max-width: 1475px) {
-  #about-me p {
-    width:80%;
-    margin: auto;
-    padding: 20px;
-  };
-  
-  #contact-info p {
-    margin: auto;
-    font-size: 10px;
-}
-};
