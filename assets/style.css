@@ -43,7 +43,7 @@ figure {
   background-image: url(./images/palm-tree-public-domain.jpg);
   background-size: cover;
   width: 100%;
-  padding: 50px;
+  margin:auto;
   text-align: left;
 }
 
@@ -79,10 +79,11 @@ h2 {
   }
 
   .refactor {
-    padding: 0px 10px 10px 10px;
+    padding: 10px;
+    text-align: center;
+    text-size-adjust: auto;
     border-style: solid;
-    border-width: 5px;
-    display: flex;
+    border-width: 1px;
     flex-direction: column;
   }
   
@@ -93,8 +94,8 @@ h2 {
   }
   
   .refactor img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
 
   .wip {
@@ -127,3 +128,37 @@ h2 {
     font-size: 10px;
     text-align: center;
 }
+
+/* Media Query */
+
+@media screen and (max-width: 1475px) {
+  .first {
+      height: 400px;
+      width: 400px;
+  }
+
+  figure img {
+      height: 350px;
+      width: 350px;
+  }
+}
+
+@media screen and (max-width: 1475px) {
+  #about-me p {
+    width:80%;
+    margin: auto;
+    padding: 20px;
+  };
+  
+  #contact-info p {
+    width:80%;
+    margin: auto;
+    padding: 20px;
+}
+  #my-apps div
+  {
+    width:80%;
+    margin: auto;
+    padding: 20px;
+}
+};
