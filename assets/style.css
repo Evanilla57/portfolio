@@ -1,3 +1,4 @@
+/* Styling for Body/ Header */
 body {
 	background-color: #e5e7eb;
 	font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +9,7 @@ header {
     margin-bottom: 15px;
 }
 
-h1 {
+header h1 {
   display: inline-block;
   font-size: 42px;
   text-align: left;
@@ -30,11 +31,7 @@ nav li {
   margin-left: 25px;
 }
 
-main {
-  flex-wrap: wrap;
-  display: flex;
-}
-
+/* Styling for Figure */
 figure {
   background-image: url(./images/palm-tree-public-domain.jpg);
   background-size: cover;
@@ -50,7 +47,14 @@ figure {
   
 }
 
-h2 {
+/* Styling for content within Body */
+
+main {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+main h2 {
   margin: auto;
 }
 
@@ -126,19 +130,6 @@ h2 {
 }
 
 /* Media Query */
-
-@media screen and (max-width: 1475px) {
-  .first {
-      height: 400px;
-      width: 400px;
-  }
-
-  figure img {
-      height: 350px;
-      width: 350px;
-  }
-}
-
 @media screen and (max-width: 1475px) {
   #about-me p {
     width:80%;
