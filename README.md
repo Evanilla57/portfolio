@@ -31,7 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Usage
 
-![Coding Student's picture accompanied by bio section and navigation bar](assets/images/profile.png)
+![Coding Student's picture accompanied by bio section and navigation bar](assets/images/portfolio.png)
 
 ## Links
 Deployed Webpage: 
