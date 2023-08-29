@@ -34,8 +34,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![Coding Student's picture accompanied by bio section and navigation bar](assets/images/portfolio.png)
 
 ## Links
-Deployed Webpage: 
-GitHub Repo Page: 
+Deployed Webpage: https://evanilla57.github.io/portfolio/
+GitHub Repo Page: https://github.com/Evanilla57/portfolio
 
 ## Credits
 
